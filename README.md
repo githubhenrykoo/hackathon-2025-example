@@ -1,10 +1,9 @@
-# Team [Name] - BBS AI Hackathon 2025
+# Team TrioTech - BBS AI Hackathon 2025
 
 ## Team Members
-- [Name] (@github-username) - Technical responsibilities
-- [Name] (@github-username) - Documentation responsibilities
-- [Name] (@github-username) - Communication responsibilities
-- [Name] (@github-username) - Quality assurance responsibilities
+- [Henry Koo](https://github.com/githubhenrykoo) - Project lead and technical development
+- [Alessandro Rumampuk](https://github.com/alessandrorumampuk) - IoT and embedded systems
+- [Duwi Arsana](https://github.com/duwiarsana) - IoT development and hardware integration
 
 ## Project Description
 [Brief description of your team's project]
@@ -40,6 +39,23 @@ hackathon-2025-[teamname]/
 3. Commit changes: `git add . && git commit -m "Your commit message"`
 4. Push to GitHub: `git push origin feature/your-feature-name`
 5. Create a pull request for team review
+
+## Contributing
+We welcome contributions from all team members! Here's how to get started:
+
+1. **Fork** the repository
+2. **Clone** your fork: `git clone git@github.com:YOUR-USERNAME/hackathon-2025-example.git`
+3. **Create a branch** for your feature: `git checkout -b feature/amazing-feature`
+4. **Commit** your changes: `git commit -m 'Add some amazing feature'`
+5. **Push** to your branch: `git push origin feature/amazing-feature`
+6. Open a **Pull Request**
+
+### Team Collaboration Guidelines
+- Always work on feature branches, never directly on `main`
+- Keep commits small and focused on a single task
+- Write clear commit messages
+- Review each other's code with constructive feedback
+- Test your changes before creating a pull request
 
 ## Useful Commands
 ```bash
