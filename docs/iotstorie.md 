@@ -1,0 +1,47 @@
+# IoT Hackathon Background Story
+### Project: Smart Environment Monitoring using ESP32 and DHT22
+
+## Introduction
+In today’s connected world, the Internet of Things (IoT) allows us to monitor and control devices from anywhere. This project explores how IoT can be used to maintain optimal temperature and humidity in critical environments using **ESP32**, **DHT22**, **Telegram Bot**, and **ThingsBoard**.
+
+## The Problem
+There are many situations where temperature and humidity play a crucial role, yet manual monitoring is inefficient and unreliable. For example:
+- **In an office or home with air conditioning**, users often set a desired temperature. However, the actual room temperature may not match the setting—perhaps the AC is faulty or has been turned off accidentally.
+- **In museums**, humidity control is essential to protect valuable historical artifacts. High humidity can cause mold or corrosion, while low humidity can damage fragile materials. But sending staff to manually check humidity levels daily is not practical.
+- **In laboratories or server rooms**, maintaining stable environmental conditions is critical for sensitive equipment. Any sudden change might cause damage or data loss if not detected early.
+
+These problems show the need for a **smart, connected system** that can monitor and alert users remotely.
+
+## The IoT Solution
+Using the **ESP32 microcontroller** and the **DHT22 sensor**, we can collect real-time temperature and humidity data. Through the **ThingsBoard dashboard**, users can visualize this data and analyze historical trends. Furthermore, with a **Telegram Bot**, users can receive instant updates or send commands directly from their smartphone—wherever they are.
+
+### Example Scenarios
+1. **Smart Air Conditioning Monitoring**
+   - The system continuously monitors room temperature.
+   - If the AC is turned on but the temperature does not drop as expected, the system sends a Telegram alert indicating possible malfunction.
+
+2. **Museum Humidity Guard**
+   - The system tracks the humidity level of display rooms.
+   - If humidity rises above the safe threshold, a Telegram message warns staff to take action before any artifact is damaged.
+
+3. **Remote Environment Tracking**
+   - Researchers or building managers can check historical data on ThingsBoard dashboards.
+   - They can adjust environmental settings or turn on ventilation systems through IoT integration.
+
+## Why It Matters
+This project demonstrates how IoT bridges the physical and digital worlds. With simple and affordable hardware, we can create intelligent systems that:
+- Reduce maintenance effort,
+- Prevent costly damage,
+- Enable real-time awareness and control,
+- And make data-driven decisions for better energy efficiency.
+
+## Tools & Technologies
+- **ESP32** – main microcontroller with Wi-Fi support
+- **DHT22** – temperature and humidity sensor
+- **ThingsBoard** – IoT platform for data visualization and device management
+- **Telegram Bot** – communication interface for alerts and remote commands
+
+---
+
+### Conclusion
+Through this project, participants learn not only the technical implementation of sensors and IoT platforms, but also how to design meaningful, real-world applications that solve practical problems. The combination of ESP32, DHT22, Telegram, and ThingsBoard gives a complete view of how modern IoT systems are built and deployed.
